@@ -315,7 +315,7 @@
         e.preventDefault();
         var t = jQuery(this);
         return jQuery.ajax({
-            url: "http://7xtheme.com/shapen/form-handler.php",
+            url: "",
             data: t.serialize() + "&action=contactform",
             type: "POST",
             dataType: "JSON",
@@ -330,7 +330,7 @@
         e.preventDefault();
         var t = jQuery(this);
         return jQuery.ajax({
-            url: "http://7xtheme.com/shapen/form-handler2.php",
+            url: "",
             data: t.serialize() + "&action=contactform",
             type: "POST",
             dataType: "JSON",

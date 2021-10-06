@@ -1,6 +1,6 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
- 
+import Image from 'next/image'
 const propTypes = {};
 
 const defaultProps = {};
@@ -46,7 +46,7 @@ const Emonitoring = () => {
 
                                     <div className="services-icon bottom-center emonitor-action  text-center col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay=".1s"> <span className="mt-10 circle-text"><i className="fa fa-angle-right md-hidden p-r-5"></i><p>Surveillance </p></span> </div> 
 
-                                    <img alt="Integrated Home construction and monitoring services" className="img-responsive center-image why-chooseus-image" src="https://www.hocomoco.in/new-assets/assets/E-MONITORING-img.jpg"/> </div>
+                                    <Image  alt="Integrated Home construction and monitoring services" className="img-responsive center-image why-chooseus-image" src="/assets/E-MONITORING-img.jpg" alt="E-Monitoring" width="500" height="440"/> </div>
                             </div>
                         </div>
                     </div>

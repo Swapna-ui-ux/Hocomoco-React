@@ -1,7 +1,7 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
 import Innerbanner from '../components/Layout/Innerbanner';
- 
+import Image from 'next/image'
 const propTypes = {};
 
 const defaultProps = {};
@@ -17,7 +17,8 @@ const Becomeaprofessional = () => {
                     <div className="row">
                         <div className="col-md-5 col-sm-12 m-b30">
                             <div className="service-about-left">
-                                <div className="mt-media p-t20"> <img src="https://www.hocomoco.in/assets/profession.jpg" alt="Become a Hocomoco Professional"/> </div>
+                                <div className="mt-media p-t20"> 
+                                <Image src="https://www.hocomoco.in/assets/profession.jpg" alt="Become a Hocomoco Professional" width="424" height="500" /> </div>
                             </div>
                         </div>
                         <div className="col-md-7 col-sm-12 p-a0">

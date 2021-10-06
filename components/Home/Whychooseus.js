@@ -1,6 +1,6 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
-
+import Image from 'next/image' 
  
 const propTypes = {};
 
@@ -16,7 +16,7 @@ const Whychooseus = () => {
                     <div className="row row-pb-md">
                         <div className="col-md-12 padding-0">
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Integrated Home construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/professional-service-icon-min.png"/>
+                            <Image  alt="Integrated Home construction and monitoring services" src={"/images/icon/professional-service-icon-min.png"} width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Professional Service</h5>
@@ -24,7 +24,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Wide range of Construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/insured-work-icon-min.png"/>
+                            <Image  alt="Wide range of Construction and monitoring services" src="/images/icon/insured-work-icon-min.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Insured Work</h5>
@@ -32,7 +32,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Integrated Home construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/digital-tracking-icon-min.png"/>
+                            <Image  alt="Integrated Home construction and monitoring services" src="/images/icon/digital-tracking-icon-min.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">100% transparency </h5>
@@ -42,7 +42,7 @@ const Whychooseus = () => {
                         </div>
                         <div className="col-md-12 mt-15 padding-0">
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="End to End Construction Services" src="https://www.hocomoco.in/new-assets/assets/transparency-icon-min.png"/>
+                            <Image  alt="End to End Construction Services" src="/images/icon/transparency-icon-min.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Digital Tracking</h5>
@@ -50,7 +50,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Integrated Home construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/quality-assurance-icon-min.png"/>
+                            <Image  alt="Integrated Home construction and monitoring services" src="/images/icon/quality-assurance-icon-min.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Quality Assurance</h5>
@@ -58,7 +58,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Wide range of Construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/on-time-delivery-icon.png"/>
+                            <Image  alt="Wide range of Construction and monitoring services" src="/images/icon/on-time-delivery-icon.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">On time Delivery</h5>
@@ -68,7 +68,7 @@ const Whychooseus = () => {
                         </div>
                         <div className="col-md-12 mt-15 padding-0">
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Wide range of Construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/flexible.png"/>
+                            <Image  alt="Wide range of Construction and monitoring services" src="/images/icon/flexible.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Flexible Pricing Models</h5>
@@ -76,7 +76,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Wide range of Construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/curbing.png"/>
+                            <Image  alt="Wide range of Construction and monitoring services" src="/images/icon/curbing.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">Curbing Malpractices</h5>
@@ -84,7 +84,7 @@ const Whychooseus = () => {
                                 </aside>
                             </div>
                             <div className="col-md-4 whychoose-box"> <span className="whychoose-icon">
-                            <img alt="Wide range of Construction and monitoring services" src="https://www.hocomoco.in/new-assets/assets/nocostruns.png"/>
+                            <Image  alt="Wide range of Construction and monitoring services" src="/images/icon/nocostruns.png" width="50" height="50"/>
                         </span>
                                 <aside className="whychoose-text">
                                     <h5 className="margin-0">No Cost Over Runs</h5>

@@ -1,7 +1,7 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
 import Innerbanner from '../components/Layout/Innerbanner';
- 
+import Image from 'next/image'
 const propTypes = {};
 
 const defaultProps = {};
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     <div className="portfolio-wrap mfp-gallery work-grid row clearfix portfolio_Div">
                         
                         <div className="masonry-item cat-1 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/manibal.jpg" alt=""/>
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/manibal.jpg" alt="" width="360" height="266"/>
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                         </div>
                         
                         <div className="masonry-item cat-2 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/mainkirin.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/mainkirin.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -105,7 +105,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-3 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/rammainnar.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/rammainnar.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -138,7 +138,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-4 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/kamaldamain.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/kamaldamain.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -171,7 +171,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-5 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/manibal.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/manibal.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -204,7 +204,7 @@ const Portfolio = () => {
                         </div>
                         
                         <div className="masonry-item cat-1 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainsainro.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainsainro.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -237,7 +237,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-2 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainmanud.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainmanud.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -270,7 +270,7 @@ const Portfolio = () => {
                         </div>
                         
                         <div className="masonry-item cat-3 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/malwadai.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/malwadai.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -303,7 +303,7 @@ const Portfolio = () => {
                         </div>
                         
                         <div className="masonry-item cat-5 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainnakar.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainnakar.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -336,7 +336,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-1 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainpeakint.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainpeakint.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -369,7 +369,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-4 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/mainchandachandra.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/mainchandachandra.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -402,7 +402,7 @@ const Portfolio = () => {
                         </div>
                          
                         <div className="masonry-item cat-4 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/mainkontwotho.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/mainkontwotho.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -434,7 +434,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="masonry-item cat-3 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/mainfartoli.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/mainfartoli.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -466,7 +466,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="masonry-item cat-2 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/vijairrumai.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/vijairrumai.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>
@@ -498,7 +498,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="masonry-item cat-5 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                            <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/mainachyth.jpg" alt="" />
+                            <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/mainachyth.jpg" alt="" width="360" height="266" />
                                 <div className="mt-post-info p-a15">
                                     <div className="mt-post-title">
                                         <h4 className="post-title">Residential Construction</h4>

@@ -12,7 +12,7 @@
     margin-bottom: 20px;
 }  
 .main-bar {
-    background:transparent;
+    /* background:transparent; */
 }
 .mobilevisibletext{
     display: none;
@@ -888,4 +888,23 @@ color: #f8a504;
 .emontor-login{
     padding: 0px 50px;
     line-height: 31px;
+}
+
+/* OCT-6-2021 CSS */
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.new-portfolio image{
+    width: 100%;
+}
+.policy-heading h3{
+	font-size: 25px;
 }

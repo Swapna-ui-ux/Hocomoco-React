@@ -1,3 +1,5 @@
+import React from 'react'; 
+import Image from 'next/image'
 
 const propTypes = {};
 const defaultProps = {};
@@ -7,7 +9,7 @@ const Banner = () => {
                 <div id="carousel-example-generic" className="carousel-fade carousel slide" data-ride="carousel">
           
                     <div className="carousel-inner" role="listbox">
-                        <div className="item active"> <img src="assets/ho5.jpg" alt="..."/>
+                        <div className="item active"> <Image src="/assets/ho5.jpg" alt="..." width="1360" height="650" />
                             <div className="container">
                                 <div className="carousel-caption col-md-6">
                                     <div className="carousel-caption-div">

@@ -1,8 +1,10 @@
 import React from 'react';
+import Image from 'next/image'
 
 import PropTypes from 'prop-types';
 import Loginpopup from './Loginpopup';
 import Quoteform from './Quoteform';
+
 const propTypes = {};
 const defaultProps = {};
 
@@ -18,11 +20,11 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-lg-3 col-md-6 col-sm-6">  
+                        <div className="col-lg-3 col-md-6 col-sm-6">    
                             <div className="widget widget_about">
  
                                 <div className="logo-footer clearfix p-b15">
-                                    <a href="index.html"><img src="assets/footer-logo.jpg" alt=""/></a>
+                                    <a href="index.html"><Image  src="/assets/footer-logo.jpg" layout="fill" alt=""/></a>
                                 </div>
                                 {/* <p className="max-w400 p-t20">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>                                 */}
                                 
@@ -86,17 +88,19 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="col-md-7">
+                            <div className="col-md-7 col-xs-12 p-a0">
                                 <div className="">
                                     <span className="copyrights-text">© 2020 Hocomoco All Right Reserved. Designed By <a href="http://weblabsolutions.in/" >Weblabs</a>.</span>
                                 </div>
                             </div>    
 
-                            <div className="col-md-5">
-                                <div className="col-md-2"></div>
-                                <div className="col-md-3"> <span className="copyrights-text"><a href="Privacy-policy">Privacy Polocy</a></span>
+                            <div class="col-md-5 last-footersec p-l0 ">
+                                <div class="col-md-2"></div>
+                                 <div class="col-md-3 col-xs-6 p-l0 p-r0"> 
+                                  <span className="copyrights-text"><a href="Privacy-policy">Privacy Polocy</a></span>
                                 </div>
-                                <div className="col-md-4"> <span className="copyrights-text"><a href="Terms-conditions">Terms & Conditions</a></span>
+                                <div class="col-md-4 col-xs-6 p-l0 p-r0">
+                                     <span className="copyrights-text"><a href="Terms-conditions">Terms & Conditions</a></span>
                                 </div>
                                 <div className="col-md-2"></div>
                             </div>
@@ -107,7 +111,7 @@ const Footer = () => {
         </footer>
 
     <div className="quote-img">
-        <a href="" data-toggle="modal" data-target="#with-form"> <img src="https://www.hocomoco.in/new-assets/assets/quote.png" alt="" /> </a>
+        <a href="" data-toggle="modal" data-target="#with-form"> <Image src="/images/icon/quote.png" alt="" width="35" height="114"/> </a>
     </div>
     <ul id="social-sidebar">
         <li> <a href="https://www.facebook.com/hocomoco.in/"  className="fa fa-facebook"><span>Facebook</span></a> </li>
@@ -120,7 +124,7 @@ const Footer = () => {
     <div className="loading-area">
         <div className="loading-box"></div>
         <div className="loading-pic">
-            <div> <img src="https://www.hocomoco.in/new-assets/assets/preloader1old.gif" alt="" /> </div>
+            <div> <Image src="/assets/preloader1old.gif" alt="" width="150" height="150"/> </div>
         </div>
     </div>
 

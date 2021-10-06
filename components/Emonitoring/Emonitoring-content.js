@@ -1,6 +1,6 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
- 
+import Image from 'next/image'
 const propTypes = {};
 
 const defaultProps = {};
@@ -44,7 +44,7 @@ const Emonitoringcontent = () => {
                             <div className="col-md-5 col-sm-6 col-xs-12 col-xs-100pc p-b40">
                                 <div className="mt-icon-box-wraper">
                                     <div className="relative">
-                                        <div className="icon-content"> <img src="assets/monitoring.jpg" alt="monitoring" width="100%"/> </div>
+                                        <div className="icon-content"> <Image src="/assets/monitoring.jpg" alt="monitoring" width="445" height="293" /> </div>
                                     </div>
                                 </div>
                             </div>

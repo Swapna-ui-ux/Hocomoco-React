@@ -8590,6 +8590,9 @@ padding:7px 0px;
 	}
 	.has-child .submenu-toogle {
 		display: block;
+		color: transparent!important;
+		font-size: 12px;
+		line-height: 8px;
 	}
 }
 
@@ -15780,13 +15783,13 @@ box-shadow: inset 3px -5px 38px -12px rgba(191,191,191,1);
 }
 
 
-pr-8-2020 */
+/* Apr-8-2020 */
 .policy-content{
 	font-size: 20px;
     margin-bottom: 15px;
 }
 .policy-para{
-	line-height: 30px;
+	line-height: 20px;
 }
 .policy-heading h4{
 	line-height: 35px;
@@ -16431,7 +16434,7 @@ font-size: 13px;
 }
 .readmore_sec aside{
 	display: block;
-	margin-left: 25px;r
+	margin-left: 25px;
 }
 
 /* JUly-1 2020*/

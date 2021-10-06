@@ -1,7 +1,7 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
 import Innerbanner from '../components/Layout/Innerbanner';
- 
+import Image from 'next/image'
 const propTypes = {};
 
 const defaultProps = {};
@@ -20,7 +20,7 @@ const Blogdetails = () => {
                                     <div className="blog-post blog-lg date-style-3 block-shadow">
                                             
                                         <div className="mt-post-media mt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="assets/blog/thum5.jpg" alt=""/></a>
+                                            <a href="javascript:void(0);"><Image src="/assets/blog/thum5.jpg" alt="" width="748" height="350"/></a>
                                         </div>
                                         <div className="mt-post-info p-a30 p-m30 bg-white">
                                                 
@@ -29,7 +29,7 @@ const Blogdetails = () => {
                                             </div>
                                             <div className="mt-post-meta ">
                                                 <ul>
-                                                    <li className="post-date blogdtl"> <i className="fa fa-calendar text-primary"></i>23 Feb 2020 </li>
+                                                    <li className="post-date blogdtl"> <i className="fa fa-calendar text-primary"></i>6 Oct 2021 </li>
                                                     <li className="post-author blogdtl"><i className="fa fa-user text-primary"></i><a href="javascript:void(0);">By Name</a> </li>
                                                     
                                                 </ul>
@@ -71,12 +71,12 @@ const Blogdetails = () => {
                                                 <div className="widget-post-bx">
                                                     <div className="widget-post clearfix">
                                                         <div className="mt-post-media">
-                                                            <img src="assets/blog/recent-blog/pic1.jpg" alt=""/>
+                                                            <Image src="https://www.hocomoco.in/assets/blog/individual_house.jpg" alt="" width="90" height="90"/>
                                                         </div>
                                                         <div className="mt-post-info">
                                                             <div className="mt-post-meta">
                                                                 <ul>
-                                                                    <li className="post-author">20 Feb</li>
+                                                                    <li className="post-author">5 Oct</li>
                                                                    
                                                                 </ul>
                                                             </div>                                            
@@ -87,12 +87,12 @@ const Blogdetails = () => {
                                                     </div>
                                                     <div className="widget-post clearfix">
                                                         <div className="mt-post-media">
-                                                            <img src="assets/blog/recent-blog/pic2.jpg" alt=""/>
+                                                            <Image  src="https://www.hocomoco.in/assets/blog/individual_house.jpg" width="90" height="90" alt=""/>
                                                         </div>
                                                         <div className="mt-post-info">
                                                             <div className="mt-post-meta">
                                                                 <ul>
-                                                                    <li className="post-author">21 Feb</li>
+                                                                    <li className="post-author">6 Oct</li>
                                                                    
                                                                 </ul>
                                                             </div>                                            
@@ -103,12 +103,12 @@ const Blogdetails = () => {
                                                     </div>
                                                     <div className="widget-post clearfix">
                                                         <div className="mt-post-media">
-                                                            <img src="assets/blog/recent-blog/pic3.jpg" alt=""/>
+                                                            <Image src="https://www.hocomoco.in/assets/blog/individual_house.jpg" alt="" width="90" height="90"/>
                                                         </div>
                                                         <div className="mt-post-info">
                                                             <div className="mt-post-meta">
                                                                 <ul>
-                                                                    <li className="post-author">22 Feb</li>
+                                                                    <li className="post-author">7 Oct</li>
                                                                      
                                                                 </ul>
                                                             </div>                                            

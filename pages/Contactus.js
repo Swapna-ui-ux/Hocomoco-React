@@ -1,7 +1,8 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
 import Innerbanner from '../components/Layout/Innerbanner';
- 
+import Image from 'next/image'
+
 const propTypes = {};
 
 const defaultProps = {};
@@ -30,7 +31,7 @@ const Contactus = () => {
                                         <div className="mt-icon-box-wraper left p-b30">
                                              
                                             <div className="col-md-2">
-                                                <img src="assets/mobile.png" alt=""/>
+                                                <Image src="/assets/mobile.png" alt="" width="40" height="38" />
                                             </div>
                                             <div className="col-md-10 icon-content">
                                                 <h5 className="m-t0 font-weight-500 font-16"><b>Phone number</b></h5>
@@ -41,7 +42,7 @@ const Contactus = () => {
                                         <div className="mt-icon-box-wraper left p-b30">
                                              
                                               <div className="col-md-2">
-                                                <img src="assets/email.png" alt=""/>
+                                                <Image src="/assets/email.png" alt="" width="40" height="38"/>
                                             </div>
                                             <div className="col-md-10 icon-content">
                                                 <h5 className="m-t0 font-weight-500 font-16"><b>Email address</b></h5>
@@ -52,7 +53,7 @@ const Contactus = () => {
                                         <div className="mt-icon-box-wraper left">
                                            
                                              <div className="col-md-2">
-                                                <img src="assets/location.png" alt=""/>
+                                                <Image src="/assets/location.png" width="40" height="38" alt=""/>
                                             </div>
                                             <div className="col-md-10 icon-content">
                                                 <h5 className="m-t0 font-weight-500 font-16"><b>Address info</b></h5>

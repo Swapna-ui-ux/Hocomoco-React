@@ -1,4 +1,5 @@
 import React from 'react'; 
+import Image from 'next/image'
 import PropTypes from 'prop-types';
  
 const propTypes = {};
@@ -23,7 +24,7 @@ const Projectgallery = () => {
 								<div className="slide">
 									<div className="portfolio-wrap mfp-gallery work-grid">
 										<div className="masonry-item">
-											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <img src="assets/portfolio/residential/image.jpg"/>
+											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <Image  src="assets/portfolio/residential/image.jpg"/>
 												<div className="overlay-bx">
 													<div className="overlay-icon">
 														<a className="mfp-link" href="assets/portfolio/residential/image.jpg"> <i className="fa fa-arrows-alt mt-icon-box-xs"></i> </a>
@@ -36,7 +37,7 @@ const Projectgallery = () => {
 								<div className="slide">
 									<div className="portfolio-wrap mfp-gallery work-grid">
 										<div className="masonry-item">
-											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <img src="assets/portfolio/residential/image1.jpg"/>
+											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <Image  src="assets/portfolio/residential/image1.jpg"/>
 												<div className="overlay-bx">
 													<div className="overlay-icon">
 														<a className="mfp-link" href="assets/portfolio/residential/image1.jpg"> <i className="fa fa-arrows-alt mt-icon-box-xs"></i> </a>
@@ -49,7 +50,7 @@ const Projectgallery = () => {
 								<div className="slide">
 									<div className="portfolio-wrap mfp-gallery work-grid">
 										<div className="masonry-item">
-											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <img src="assets/portfolio/residential/image2.jpg"/>
+											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <Image  src="assets/portfolio/residential/image2.jpg"/>
 												<div className="overlay-bx">
 													<div className="overlay-icon">
 														<a className="mfp-link" href="assets/portfolio/residential/image2.jpg"> <i className="fa fa-arrows-alt mt-icon-box-xs"></i> </a>
@@ -62,7 +63,7 @@ const Projectgallery = () => {
 								<div className="slide">
 									<div className="portfolio-wrap mfp-gallery work-grid">
 										<div className="masonry-item">
-											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <img src="assets/portfolio/residential/image2.jpg"/>
+											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <Image  src="assets/portfolio/residential/image2.jpg"/>
 												<div className="overlay-bx">
 													<div className="overlay-icon">
 														<a className="mfp-link" href="assets/portfolio/residential/image2.jpg"> <i className="fa fa-arrows-alt mt-icon-box-xs"></i> </a>
@@ -75,7 +76,7 @@ const Projectgallery = () => {
 								<div className="slide">
 									<div className="portfolio-wrap mfp-gallery work-grid">
 										<div className="masonry-item">
-											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <img src="assets/portfolio/residential/image2.jpg"/>
+											<div className="mt-thum-bx  img-center-icon  mt-img-overlay2"> <Image  src="assets/portfolio/residential/image2.jpg"/>
 												<div className="overlay-bx">
 													<div className="overlay-icon">
 														<a className="mfp-link" href="assets/portfolio/residential/image2.jpg"> <i className="fa fa-arrows-alt mt-icon-box-xs"></i> </a>

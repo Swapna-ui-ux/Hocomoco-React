@@ -1,5 +1,6 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
+import Image from 'next/image'
  
 const propTypes = {};
 
@@ -18,7 +19,7 @@ const Residentialportfolio = () => {
                         </div> 
                         <div className="work-grid row clearfix portfolio_Div">                        
                             <div className="masonry-item cat-1 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                                <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/manibal.jpg" alt=""/>
+                                <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/manibal.jpg" width="360" height="266"  alt=""/>
                                     <div className="mt-post-info p-a15">
                                         <div className="mt-post-title">
                                             <h4 className="post-title">Residential Construction</h4>
@@ -51,7 +52,7 @@ const Residentialportfolio = () => {
                             </div>
                             
                             <div className="masonry-item cat-2 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                                <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainsainro.jpg" alt="" />
+                                <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainsainro.jpg" width="360" height="266"  alt="" />
                                     <div className="mt-post-info p-a15">
                                         <div className="mt-post-title">
                                             <h4 className="post-title">Residential Construction</h4>
@@ -84,7 +85,7 @@ const Residentialportfolio = () => {
                             </div>
                             
                             <div className="masonry-item cat-3 col-lg-4  col-md-4 col-sm-6 m-b30 port_area">
-                                <div className="new-portfolio"> <img src="https://www.hocomoco.in/assets/slider/Mainmanud.jpg" alt="" />
+                                <div className="new-portfolio"> <Image  src="https://www.hocomoco.in/assets/slider/Mainmanud.jpg" width="360" height="266"  alt="" />
                                     <div className="mt-post-info p-a15">
                                         <div className="mt-post-title">
                                             <h4 className="post-title">Residential Construction</h4>

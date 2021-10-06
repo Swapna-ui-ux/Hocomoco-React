@@ -10,7 +10,7 @@ const Loginpopup = () => {
         <>
            <div id="login" className="modal fade" role="dialog">
         <div className="modal-dialog"> 
-            <div className="modal-content" style={{"backgroundImage":"url(https://www.hocomoco.in/new-assets/assets/back-bg.jpg)","background-repeat": "no-repeat"}}>
+            <div className="modal-content" style={{"backgroundImage":"url(https://www.hocomoco.in/new-assets/assets/back-bg.jpg)","backgroundRepeat": "no-repeat"}}>
                 <div className="modal-header login-modalheader">
                     <button type="button" className="close" data-dismiss="modal">&times;</button>
                     <h4 className="modal-title text-black text-center font-30 text-uppercase">Login</h4> </div>

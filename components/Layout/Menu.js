@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
+import Image from 'next/image'
 
 import PropTypes from 'prop-types';
 
@@ -38,7 +39,7 @@ const Menu = () => {
                         <div className="header-nav navbar-collapse collapse">
                             <ul className=" nav navbar-nav">
                                 <li className="active"><a href="index.html">Home</a></li>
-                                <li><a href="#">Services</a>
+                                <li><a href="#">Services <span class="caret small_caret white"></span></a>
                                     <ul className="sub-menu has-child">
                                         <li>
                                             <a href="Residential"> <i className="fa fa-home"></i> Residential Construction </a>
